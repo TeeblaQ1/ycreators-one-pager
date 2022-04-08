@@ -772,17 +772,16 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   width: 70%;
+  margin: 0 auto;
 }
 
 .cta p {
   color: #fff;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 37.54px;
   font-weight: 400;
 }
-.cta p {
-  color: #fff;
-}
+
 .cta .cta-btn {
   font-family: "Jost", sans-serif;
   font-weight: 500;
@@ -809,6 +808,13 @@ section {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .cta iframe {
+    width: 100%;
   }
 }
 
