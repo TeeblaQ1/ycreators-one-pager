@@ -1,6 +1,6 @@
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #444444;
 }
 
@@ -299,6 +299,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 50px;
   font-size: 24px;
 }
+
+#hero p {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
 #hero .btn-enroll-now {
   font-family: "Jost", sans-serif;
   font-weight: 500;
@@ -814,7 +821,12 @@ section {
 
 @media (max-width: 768px) {
   .cta iframe {
-    width: 100%;
+    height: 100%;
+    padding: 5px;
+  }
+
+  .mobile-inverse {
+    flex-direction: column-reverse;
   }
 }
 
