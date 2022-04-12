@@ -717,7 +717,7 @@ section {
   margin-bottom: 10px;
 }
 .services .icon-box .icon i {
-  color: #407BFF;
+  color: red;
   font-size: 36px;
   transition: 0.3s;
 }
@@ -735,9 +735,9 @@ section {
   font-size: 14px;
   margin-bottom: 0;
 }
-.services .icon-box:hover {
+/* .services .icon-box:hover {
   transform: translateY(-10px);
-}
+} */
 .services .icon-box:hover h4 a {
   color: rgb(69, 69, 69);
 }
@@ -1110,27 +1110,27 @@ section {
   display: inline-block;
   padding: 12px 35px;
   border-radius: 50px;
-  color: #47b2e4;
+  color: #009499;
   transition: none;
   font-size: 16px;
   font-weight: 500;
   font-family: "Jost", sans-serif;
   transition: 0.3s;
-  border: 1px solid #47b2e4;
+  border: 1px solid #009499;
 }
 .pricing .buy-btn:hover {
-  background: #47b2e4;
+  background: #009499;
   color: #fff;
 }
 .pricing .featured {
-  border-top-color: #47b2e4;
+  border-top-color: #009499;
 }
 .pricing .featured .buy-btn {
-  background: #47b2e4;
+  background: #009499;
   color: #fff;
 }
 .pricing .featured .buy-btn:hover {
-  background: #23a3df;
+  background: #009499;
 }
 @media (max-width: 992px) {
   .pricing .box {
