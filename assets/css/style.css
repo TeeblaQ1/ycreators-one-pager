@@ -1436,6 +1436,59 @@ section {
   content: "/";
 }
 
+
+div#newsletter {
+  font-size: 14px;
+  background: #000;
+}
+div#newsletter .footer-newsletter {
+  padding: 50px 0;
+  background: #f3f5fa;
+  text-align: center;
+  font-size: 15px;
+  color: #444444;
+}
+div#newsletter .footer-newsletter h4 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  color: #37517e;
+}
+div#newsletter .footer-newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  /* border-radius: 50px; */
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+  text-align: left;
+}
+div#newsletter .footer-newsletter form input[type=email] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+div#newsletter .footer-newsletter form input[type=submit] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #407BFF;
+  color: #fff;
+  transition: 0.3s;
+  /* border-radius: 50px; */
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+div#newsletter .footer-newsletter form input[type=submit]:hover {
+  background: #2a6dfd;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1566,8 +1619,38 @@ section {
   height: 36px;
   transition: 0.3s;
 }
-#footer .footer-top .social-links a:hover {
+/* #footer .footer-top .social-links a:hover {
   background: #209dd8;
+  color: #fff;
+  text-decoration: none;
+} */
+
+#footer .footer-top .social-links a.twitter:hover {
+  background: #00acee;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .footer-top .social-links a.facebook:hover {
+  background: #3b5998;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .footer-top .social-links a.instagram:hover {
+  background: #f09433;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .footer-top .social-links a.youtube:hover {
+  background: #ff0000;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .footer-top .social-links a.linkedin:hover {
+  background: #0e76a8;
   color: #fff;
   text-decoration: none;
 }
