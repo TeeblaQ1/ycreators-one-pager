@@ -169,7 +169,7 @@
    */
     var swiper = new Swiper(".sliderFeaturedPictures", {
     spaceBetween: 0,
-    speed: 500,
+    speed: 1000,
     centeredSlides: true,
     loop: true,
     slideToClickedSlide: true,
@@ -182,8 +182,8 @@
       clickable: true,
     },
     navigation: {
-      nextEl: ".custom-swiper-button-next",
-      prevEl: ".custom-swiper-button-prev",
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
   });
 

@@ -18,6 +18,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Jost", sans-serif;
 }
 
+img {
+  object-fit: cover;
+  height: 100%;
+}
+
+p {
+  line-height: 2;
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -279,35 +288,37 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+.hero {
   width: 100%;
   height: 80vh;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 50.6%, rgba(0, 0, 0, 0) 94.01%), url('../../assets/img/hero-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#hero .container {
+.hero .container {
   padding-top: 72px;
 }
-#hero h1 {
+.hero h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
 }
-#hero h2 {
+.hero h2 {
   color: #fff;
   margin-bottom: 50px;
   font-size: 24px;
 }
 
-#hero p {
+.hero p {
   color: #fff;
   margin-bottom: 50px;
   font-size: 18px;
 }
 
-#hero .btn-enroll-now {
+.hero .btn-enroll-now {
   font-family: "Jost", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -319,7 +330,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   background: #407BFF;
 }
-#hero .btn-explore-courses {
+.hero .btn-explore-courses {
   font-family: "Jost", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -332,14 +343,14 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   align-items: center;
 }
-#hero .btn-enroll-now:hover {
+.hero .btn-enroll-now:hover {
   background: #3070fa;
 }
-#hero .btn-explore-courses:hover {
+.hero .btn-explore-courses:hover {
   background: #3070fa;
   color: #fff;
 }
-#hero .btn-watch-video {
+.hero .btn-watch-video {
   font-size: 16px;
   display: flex;
   align-items: center;
@@ -348,60 +359,63 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   line-height: 1;
 }
-#hero .btn-watch-video i {
+.hero .btn-watch-video i {
   line-height: 0;
   color: #fff;
   font-size: 32px;
   transition: 0.3s;
   margin-right: 8px;
 }
-#hero .btn-watch-video:hover i {
+.hero .btn-watch-video:hover i {
   color: #47b2e4;
 }
-#hero .animated {
+.hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
-#hero .red{
+.hero .red{
   color: #ED443E;
 }
 @media (max-width: 991px) {
-  #hero {
+  .hero {
     height: 100vh;
     text-align: center;
   }
-  #hero .animated {
+  .hero .animated {
     -webkit-animation: none;
     animation: none;
   }
-  #hero .hero-img {
+  .hero .hero-img {
     text-align: center;
   }
-  #hero .hero-img img {
+  .hero .hero-img img {
     width: 50%;
   }
 }
 @media (max-width: 768px) {
-  #hero h1 {
+  .hero h1 {
     font-size: 28px;
     line-height: 36px;
   }
-  #hero h2 {
+  .hero h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
-  #hero .hero-img img {
+  .hero .hero-img img {
     width: 70%;
   }
 }
 @media (max-width: 575px) {
-  #hero .hero-img img {
+  .hero .hero-img img {
     width: 80%;
   }
-  #hero .btn-get-started {
+  .hero .btn-get-started {
     font-size: 16px;
     padding: 10px 24px 11px 24px;
+  }
+  .swiper-btn {
+    display: none;
   }
 }
 
