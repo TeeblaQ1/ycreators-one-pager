@@ -112,7 +112,7 @@ p {
   background: #fff;
 }
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(167, 167, 167, 0.9);
+  background: rgba(255, 255, 255, 0.9);
 }
 
 #header .logo {
@@ -291,9 +291,24 @@ p {
 .hero {
   width: 100%;
   height: 80vh;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 50.6%, rgba(0, 0, 0, 0) 94.01%), url('../../assets/img/hero-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+section.slide-1 {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 50.6%, rgba(0, 0, 0, 0) 94.01%), url('../../assets/img/hero-bg.png');
+}
+
+section.slide-2 {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 50.6%, rgba(0, 0, 0, 0) 94.01%), url('../../assets/img/hero-bg-new-5.png');
+}
+
+section.slide-3 {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 50.6%, rgba(0, 0, 0, 0) 94.01%), url('../../assets/img/hero-bg-3.png');
+}
+
+section.slide-4 {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 50.6%, rgba(0, 0, 0, 0) 94.01%), url('../../assets/img/hero-bg.png');
 }
 
 .hero .container {
@@ -378,7 +393,7 @@ p {
 }
 @media (max-width: 991px) {
   .hero {
-    height: 100vh;
+    /* height: 100vh; */
     text-align: center;
   }
   .hero .animated {
@@ -390,6 +405,25 @@ p {
   }
   .hero .hero-img img {
     width: 50%;
+  }
+  section.slide-1 {
+    background: url('../../assets/img/hero-bg.png');
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  }
+  
+  section.slide-2 {
+    background: url('../../assets/img/hero-bg-new-5.png');
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  }
+  
+  section.slide-3 {
+    background: url('../../assets/img/hero-bg-new-3.png');
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  }
+  
+  section.slide-4 {
+    background: url('../../assets/img/hero-bg.png');
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
   }
 }
 @media (max-width: 768px) {
@@ -405,6 +439,25 @@ p {
   .hero .hero-img img {
     width: 70%;
   }
+  section.slide-1 {
+    background: url('../../assets/img/hero-bg.png');
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  }
+  
+  section.slide-2 {
+    background: url('../../assets/img/hero-bg-new-5.png');
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  }
+  
+  section.slide-3 {
+    background: url('../../assets/img/hero-bg-new-3.png');
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  }
+  
+  section.slide-4 {
+    background: url('../../assets/img/hero-bg.png');
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  }
 }
 @media (max-width: 575px) {
   .hero .hero-img img {
@@ -416,6 +469,25 @@ p {
   }
   .swiper-btn {
     display: none;
+  }
+  section.slide-1 {
+    background: url('../../assets/img/hero-bg.png');
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  }
+  
+  section.slide-2 {
+    background: url('../../assets/img/hero-bg-new-5.png');
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  }
+  
+  section.slide-3 {
+    background: url('../../assets/img/hero-bg-new-3.png');
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  }
+  
+  section.slide-4 {
+    background: url('../../assets/img/hero-bg.png');
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
   }
 }
 
@@ -871,7 +943,7 @@ section {
 
 @media (max-width: 768px) {
   .cta iframe {
-    height: 100%;
+    height: 40vh;
     padding: 5px;
   }
 
