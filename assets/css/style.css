@@ -304,11 +304,11 @@ section.slide-2 {
 }
 
 section.slide-3 {
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 50.6%, rgba(0, 0, 0, 0) 94.01%), url('../../assets/img/hero-bg-3.png');
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 50.6%, rgba(0, 0, 0, 0) 94.01%), url('../../assets/img/hero-bg-new-6.png');
 }
 
 section.slide-4 {
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 50.6%, rgba(0, 0, 0, 0) 94.01%), url('../../assets/img/hero-bg.png');
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 50.6%, rgba(0, 0, 0, 0) 94.01%), url('../../assets/img/hero-bg-new-9.png');
 }
 
 .hero .container {
